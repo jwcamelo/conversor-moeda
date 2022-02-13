@@ -7,6 +7,10 @@ body {
     background-color: #4D5673;
 }
 
+a {
+    color: rgba(231, 225, 225, 0.295);
+}
+
 .ctn {
     margin: auto;
     align-items: center;
