@@ -108,7 +108,7 @@ label {
     display: none;
 }
 
-@media (max-width: 390px) {
+@media (max-width: 450px) {
     .ctn {
         max-width: 350px;
         max-height: 700px;
