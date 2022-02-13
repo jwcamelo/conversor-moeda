@@ -153,6 +153,7 @@ label {
         width: 50%;
         margin: auto;
         height: max-content;
+        background-color: #fff;
     }
     button {
         margin-bottom: 10px;
