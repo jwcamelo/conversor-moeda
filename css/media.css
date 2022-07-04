@@ -1,0 +1,11 @@
+@media (min-width: 765px) {
+  .app {
+    width: 70%;
+  }
+}
+
+@media(min-width: 900px) {
+  .app {
+    width: 55%;
+  }
+}
