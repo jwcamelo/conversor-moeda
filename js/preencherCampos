@@ -1,0 +1,11 @@
+export const preencherCampos = (titulo, resultado, valorConvertido, taxa, data) => {
+  const tituloConversao = document.querySelector("#tituloConversao");
+  const resultadoConversao = document.querySelector("#resultadoConversao");
+  const spanTaxa = document.querySelector("#taxaConversao");
+  const spanDataCotacao = document.querySelector("#dataCotacao");
+
+  tituloConversao.innerHTML = titulo;
+  resultadoConversao.innerHTML = `${valorConvertido} = ${resultado}`;
+  spanDataCotacao.innerHTML = `Data da cotação: ${data}`;
+  spanTaxa.innerHTML = `Taxa de conversão: ${taxa}`;
+}
